@@ -57,7 +57,8 @@ x = reshape(X,[],1);
 y = reshape(Y,[],1);
 z1 = c * sqrt(constant + x.^2 / a^2 + y.^2 / b^2);
 z2 = -c * sqrt(constant + x.^2 / a^2 + x.^2 / b^2);
-points_hyperbolas = [x,y,z1,z2];
+points_hyperbolas = [x,y,z1];
+points_hyperbolas = [points_hyperbolas ; x,y,z2];
 
 % Z1 = c * sqrt(constant + X.^2 / a^2 + Y.^2 / b^2);
 % Z1 = reshape(Z1, [], length(y));
