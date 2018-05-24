@@ -6,3 +6,5 @@ when running these scripts. Unfortunately no specific environments were created 
 coding this project, hence unnecessary libraries are also present in this file.
 
 To install all the present libraries, one should run in a terminal "pip install -r requirements.txt"
+
+Link to the GitHub [repository](https://github.com/AntoineWeber/AML-Project).
